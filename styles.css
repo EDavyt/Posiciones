@@ -42,6 +42,12 @@ header{
 
 }
 
+.favIcon {
+    position: absolute;
+    left: 28px;
+    top: 15px;
+}
+
 .foto_bannet_bat{
     position: absolute;
     background-image: url(FondoBat.png);
