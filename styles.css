@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    
+}
+
+header{
+    background-color:#1CD1B0;
+    text-indent: 2rem;
+    padding: 10px 0;
+}
+
+.Titulo{
+    text-indent: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    padding: 28px 0;
+    background-color: #00669F;
+    position: sticky;
+    top: 0;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 15px;
+    margin-inline: auto;
+    justify-content: center;
+    margin-block: 100px;
+    
+}
+
+.Carta{
+    position: relative;
+    background-color: #F3F3F3;
+    height: 534px;
+    width: 300px;
+    border-radius: 25px;
+
+
+}
+
+.foto_bannet_bat{
+    position: absolute;
+    background-image: url(FondoBat.png);
+    width: 100%;
+    height: 198px;
+    background-size: cover;
+}
+
+.foto_bannet_hc{
+    position: absolute;
+    background-image: url(FondoHa.png);
+    width: 100%;
+    height: 198px;
+    background-size: cover;
+}
+
+.foto_perfil {
+    position: relative;
+    top: 128px;
+    left: 90px;
+    border-radius: 100px;
+    
+    
+}
+
+h2{
+    text-align: center;
+}
+.cuerpo{
+    position: absolute;
+    left:16px;
+    bottom: 104px;
+}
+
+.boton{
+    background-color: #00669F;
+    color: #F3F3F3;
+    text-align: center;
+    height: 45px;
+    width: 130px;
+    text-align: center;
+    left: 85px;
+}
+
+footer{
+    background-color: #00669F;
+    padding: 10px;
+    color: #F3F3F3;
+
+}
