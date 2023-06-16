@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <span>Descuento 20%</span>
+    </header>
+    <section class="Titulo">
+        <h1>Heroes</h1>
+    </section>
+    <a href="index.html">Heroes!
+    </a>
+    <section class="padre">
+        <Article class="CajaForm">
+            <h2>Aniadi a tu super!</h2>
+            <span>Completa el form jajajjajadjhabdhjasbcusahbdjhsalbdijsahb</span>
+            <form class="Formulario1">
+
+                <div class="Columna1">
+
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" required>
+
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha">
+
+                    <textarea rows="6">Descripcion</textarea>
+                </div>
+                
+                <div class="Columna2">
+                    <label for="Especie">Especie</label>
+                    <select name="Especie" required>
+                        <option value="" selected disabled>Especie</option>
+                        <option value="Villano">Villano</option>
+                        <option value="humano">Humano</option>
+                        <option value="boludo">Boludo</option>
+                    </select>
+    
+    
+    
+                    <label for="foto">Agregar foto</label>
+                    <input type="file" form="foto">
+    
+    
+                <div class="box">
+                    <label >Poderes</label> <br>
+    
+                        <span><input type="checkbox" value="Volar"> <label for="Volar">Volar</label></span>
+                        <span><input type="checkbox" value="superfuerza"> <label for="superfuerza">superfuerza</label></span>
+                        <span><input type="checkbox" value="Rayolaser"> <label for="Rayolaser">Rayo Laser</label></span>
+                        <span><input type="checkbox" value="Volar"> <label for="Volar">Volar</label></span>
+                </div>
+                    <hr>
+    
+                <div class="box">
+                    <label>Tipo</label><br>
+                    <span><input type="radio" value="Heroe" name="tipo"><label for="good">Heoroe/Heroian</label></span>
+                    <span><input type="radio" value="villano" name="tipo"><label for="bad">Malo/mala</label></span>
+                </div>
+
+                </div>
+
+
+
+
+                <button>Aniadir</button>
+
+            </form>
+
+        </Article>
+
+    </section>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1
+        </p>
+    </footer>
+</body>
+</html>

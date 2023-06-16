@@ -19,18 +19,22 @@ header{
     background-color: #00669F;
     position: sticky;
     top: 0;
+    z-index: 1;
+    border: black 2px;
 }
-
 
 .padre{
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    column-gap: 15px;
+    background-color: #00669F;
+    padding: 20px;
+    margin: 20px 0;
+    width: fit-content;
     margin-inline: auto;
-    justify-content: center;
-    margin-block: 100px;
-    
+    border-radius: 25px;
+    color: white;
 }
+
+
+
 
 .Carta{
     position: relative;
@@ -109,3 +113,141 @@ footer{
 }
 
 
+form span {
+    display: block;
+}
+
+
+
+/*Cartas*/
+
+.Carta{
+    position: relative;
+    background-color: #F3F3F3;
+    height: 534px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 20px;
+
+
+}
+.favIcon {
+    position: absolute;
+    left: 28px;
+    top: 15px;
+}
+
+.foto_bannet_bat{
+    position: absolute;
+    background-image: url(FondoBat.png);
+    width: 100%;
+    height: 198px;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.foto_bannet_hc{
+    position: absolute;
+    background-image: url(FondoHa.png);
+    width: 100%;
+    height: 198px;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
+}
+
+.foto_perfil {
+    position: relative;
+    top: 128px;
+    left: 90px;
+    border-radius: 100px;
+    
+    
+}
+.boton{
+    position: absolute;
+    background-color: #00669F;
+    color: #F3F3F3;
+    left: 85px;
+    bottom: 19px;
+    text-align: center;
+    height: 45px;
+    width: 130px;
+
+}
+
+.boton p {
+    position: relative;
+    top: 15px;
+}
+
+
+
+.padreCartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-block: 100px;
+    
+}
+
+
+
+/* Form Settings */
+
+label{
+    margin-bottom: 30px;
+}
+input{
+    margin-bottom: 20px;
+}
+select{
+    margin-bottom: 20px;
+}
+
+span input{
+    margin-bottom: unset;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+
+
+.Formulario1{
+    
+    display: grid;
+    grid-template-columns: 350px 350px;
+    column-gap: 15px;
+    margin-inline: auto;
+    justify-content: center;
+    margin-block: 100px;
+    
+}
+
+.Columna1{
+    display: flex;
+    flex-direction: column;
+}
+.Columna2{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+/* Mobile */
+
+@media only screen and (max-width: 390px) {
+    .Formulario1{
+    
+        display: grid;
+        grid-template-columns: 350px; 
+        
+        
+    }
+  }
